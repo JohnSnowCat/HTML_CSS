@@ -1,0 +1,298 @@
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(./font/Gilroy-Semibold.woff2);
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url(./font/Gilroy-Regular.woff2);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  /* display: flex; */
+}
+
+.menu {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 533px;
+  /* padding-top: 11px;
+  padding-bottom: 12px; */
+}
+
+.icon {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.second_menu_btn {
+  display: flex;
+}
+
+.navigation__link {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.main {
+  padding-top: 84px;
+  padding-bottom: 162px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* gap: 37px; */
+}
+
+.content__left-side {
+  max-width: 522px;
+}
+
+.content__left-side h1 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+
+.content__left-side p {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 37px;
+  max-width: 466px;
+}
+
+.content__buttoms {
+  max-width: 302px;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 17.58px;
+}
+
+.btn_free {
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  border-radius: 50px;
+  color: #ffffff;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  padding: 15px 35px 16px 36px;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.btn_push {
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 18px;
+  /* text-align: left; */
+  color: #aaaaaa;
+
+  border-radius: 50px;
+  background: #ffffff;
+  padding: 15px 25px 16px 26px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.logo {
+  padding-top: 97px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+}
+
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  background: #ffffff;
+}
+
+.offers__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.offers__side_item {
+  width: 310px;
+  height: 226px;
+}
+
+.offers__central_item {
+  width: 370px;
+  height: 291px;
+  padding: 40px 30px 25px 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 15px 25px 56px 6px #0000000f;
+}
+
+.offers__side_item h2 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.offers__central_item h2 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.offers__side_item p {
+  font-family: Gilroy-Regular;
+  color: #666666;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.offers__central_item p {
+  font-family: Gilroy-Regular;
+  color: #666666;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.offers__buttom {
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: none;
+}
+
+.advantages h2 {
+  padding-top: 92px;
+  padding-bottom: 19px;
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.advantages p {
+  max-width: 682px;
+  margin: 0 auto;
+  font-family: Gilroy-Regular;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.advantages__block {
+  padding-top: 55px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* gap: 30px; */
+}
+
+.advantages__block__cards {
+  height: 549px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.advantages__block__cards h3 {
+  padding-top: 25px;
+}
+
+.advantages__block__cards p {
+  width: 310px;
+  padding-bottom: 29px;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #aaaaaa;
+}
+
+.advantages__block__central {
+  box-shadow: 15px 25px 60px -5px #0000001a;
+}
+
+.advantages__block button {
+  padding-bottom: 50px;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+
+  width: 150px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px #f2582233;
+  background: #f25822;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* img {
+	max-width: 100%;
+	display: block;
+} */
